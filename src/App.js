@@ -43,7 +43,7 @@ function App() {
           <Route path="/updatepassword" element={<UpdatePasswordPage />} />
           <Route path="/orderdetails" element={<OrderDetails />} />
           <Route path="/checkout" element={<CheckoutPage />} />
-          <Route path="/wallet" element={<CheckoutPage />} />
+          <Route path="/wallet" element={<WalletPage />} />
           <Route path="/checkout/success" element={<Success />} />
           <Route path="/address" element={<AddressPage />} />
           <Route path="/additem" element={<ListItemForm preFilled="false" />} />
