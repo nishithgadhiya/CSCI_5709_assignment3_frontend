@@ -48,11 +48,11 @@ const UploadProductImage = ({ getDataFromPictures }) => {
       </ImageList>
       {/* add multiple after input */}
       <input onChange={handleImageChange} multiple type="file" />
-      {/* <div>
+      <div>
         <Button variant="contained" onClick={handleImageUpload}>
           Confirm images
         </Button>
-      </div> */}
+      </div>
     </div>
   );
 };
